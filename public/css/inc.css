@@ -1,0 +1,229 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.fa{
+  color: black;
+}
+main{
+  display: grid;
+  place-items: center;
+  height: 93vh;
+  
+}
+/* .....header....... */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:7vh;
+    font-family: 'Fredoka One', cursive;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: rgba(255, 255, 255, 0.897);
+  }
+ .hd{
+  display: flex;
+  padding: 5px;
+  
+ }
+ .logicon{
+  padding-right: 5px;
+ }
+  .lo{
+    display: flex;
+    padding-right: 10px;
+    padding-top: 6px;
+    justify-content: center;
+    align-items: center;
+  }
+  #cap{
+    padding-left: 3px;
+    background: -webkit-radial-gradient(33% 100% circle, 4%, #c850c0 30%, #4158d0 62%, 85%, #c850c0 );
+    background: radial-gradient(circle at 33% 100%, #4158d0 4%, #4158d0 28%, #c850c0 62%, #c850c0 85%,#4158d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rotate 3s linear infinite;
+  }
+  #un{
+    padding-left: 5px;
+  }
+  
+ 
+   
+
+@keyframes rotate{
+   
+    0%{
+      transform: rotate(0deg);
+    }
+    50%{
+      transform: rotate(30deg);
+    }
+    100%{
+      transform: rotate(-30deg);
+    }
+    
+}
+  .rest{
+    max-height:720px;
+   max-width: 550px;
+    border: 1px  ;
+    border-radius: 25px;
+    padding: 20px;
+    /* transform: translateY(1%); */
+    background: rgba(245, 245, 245, 0.863);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+   
+  }
+  
+  .fl{
+    display: flex;
+    gap: 5px;
+  }
+  .bb{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin:2px,0px,2px,0px;
+    border: 1px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    background: rgb(237, 235, 230);
+  }
+  form{
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  #in {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background: rgb(237, 235, 230);
+    outline: none;
+  }
+  #in1{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background: rgb(237, 235, 230);
+    outline: none;
+  }
+  .d{
+    max-height: 300px;
+   max-width: 300px; 
+   
+  }
+  .dl{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  #dbt{
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    border-style: none;
+   border-radius: 10px;
+    max-height: 300px;
+    width: 100%;
+  }
+ 
+  #btn{
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    border-style: none;
+    border: 1px;
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+  }
+  label{
+    font-family: 'Fredoka One', cursive;
+  }
+  table {
+    
+    max-width: 100%;
+    border: 1px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  
+  }
+  /* th{
+    border: 1px;
+    border-radius: 20px;
+  }
+   */
+  
+  tr:nth-child(odd) {
+  
+    background-color: #eee;
+  
+  }
+  
+  
+  th {
+  
+    background-color: #555;
+  
+    color: #fff;
+  
+  }
+  td{
+    font-family: 'Fredoka One', cursive;
+  }
+  
+  
+  th,
+  td {
+   
+    text-align: left;
+  
+    padding: 0.5em 1em;
+      
+  }
+  #k{
+    font-family: 'Fredoka One', cursive;
+  }
+  .rt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  #sp{
+    font-family: 'Fredoka One', cursive;
+  }
+  #sp2{
+    font-family: 'Fredoka One', cursive;
+  }
+  #sp1{
+    font-family: 'Fredoka One', cursive;
+  }
+  @media(max-width:800px)
+  {
+    /* #in1{
+      width: 30px;
+    } */
+    
+    #not{
+      font-size: 0.55cm;
+
+    }
+    header{
+      height: 5vh;
+    }
+    #dbt{
+      padding-right: 5px;
+    }
+    .dl{
+     gap: 2px;
+    }
+  }
